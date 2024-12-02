@@ -18,9 +18,9 @@ The main objective of this project is to create an efficient and accurate model 
 
 After data cleaning and model retraining, we observed significant improvements in key metrics:
 
-- **F1 Micro** improved by approximately 39.67%.
-- **F1 Macro** improved by approximately 38.88%.
-- **Accuracy** showed a slight decrease of approximately 5.79%.
+- **F1 Micro** improved by approximately 37%.
+- **F1 Macro** improved by approximately 28%.
+- **Accuracy** improved by approximately 1%.
 
 These results indicate that cleaning the training data had a substantial positive impact on the model's classification performance for specific metrics, enhancing its ability to detect sensitive content.
 
@@ -102,25 +102,25 @@ The data cleaning process significantly improved the model's performance, as sho
 1. **F1 Micro**:
 
    - Original: 0.238849
-   - Cleaned: 0.333725
-   - Percentage Improvement: ~39.67%
+   - Cleaned: 0.328125
+   - Percentage Improvement: ~37%
 
 2. **F1 Macro**:
 
    - Original: 0.201026
-   - Cleaned: 0.279202
-   - Percentage Improvement: ~38.88%
+   - Cleaned: 0.256688
+   - Percentage Improvement: ~28%
 
 3. **Accuracy**:
    - Original: 0.623134
-   - Cleaned: 0.587065
-   - Percentage Decrease: ~5.79%
+   - Cleaned: 0.628109
+   - Percentage Decrease: ~1%
 
 ### Summary
 
-- F1 Micro improved by approximately 39.67%.
-- F1 Macro improved by approximately 38.88%.
-- Accuracy decreased by approximately 5.79%.
+- F1 Micro improved by approximately 37%.
+- F1 Macro improved by approximately 28%.
+- Accuracy improved by approximately 1%.
 
 ---
 
