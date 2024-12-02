@@ -74,11 +74,11 @@ To ensure accurate labels in the training data, the file `prod_silver.csv` needs
 After data cleaning, retrain the model with the new labels by following these steps:
 
 1. Download the repository.
-2. Review `Final_Cleaned_Data.xlsx` and perform any additional cleaning if needed.
+2. Review `prod_silver - Final Cleaned.xlsx` and perform any additional cleaning if needed.
 3. Use `GPT_Filling_Empty_Labels.ipynb` to automatically fill missing labels based on the `Empty_Labels_Data.xlsx` file.
 4. Use `GumGum_Latest_Model.ipynb` to train the model on the cleaned data, specifying:
 
-   - `prod_silver_df`: the newly cleaned data.
+   - `prod_silver_df`: the newly cleaned data in `prod_silver - Final Cleaned.xlsx`.
    - `bbkpi_df`: the test data in `bbkpi_gold.csv`.
 
 5. Adjust hyperparameters and select the desired transformer model in `GumGum_Latest_Model.ipynb`.
@@ -171,7 +171,7 @@ This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENS
 
 ## Credits and Acknowledgments
 
-- **Developed by**: Fulati Aizihaer
+- **Developed by**: Fulati Aizihaer, Megan Fu, Courtney Duong, Henry Avila, Grace Chen
 - **Special Thanks**: To GumGum for providing the datasets and support.
 - **Libraries Used**: Hugging Face Transformers, scikit-learn, pandas.
 
